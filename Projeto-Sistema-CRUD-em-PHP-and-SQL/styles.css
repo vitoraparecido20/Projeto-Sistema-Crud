@@ -1,0 +1,60 @@
+/* Define a cor de fundo da página */
+body {
+  background-color: #FFFF00; /* Cor amarela */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o padding padrão */
+}
+
+/* Define o estilo para o título */
+h1 {
+  text-align: center; /* Centraliza o texto */
+  color: #333; /* Cor do texto */
+  margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Define a posição do formulário */
+form {
+  display: flex;
+  flex-direction: column; /* Organiza os filhos em coluna */
+  align-items: center; /* Centraliza os filhos horizontalmente */
+  margin-top: 50px; /* Espaçamento superior */
+}
+
+/* Define o estilo base para o botão */
+.btn-continuar {
+  background-color: #800080; /* Cor roxa */
+  color: white; /* Cor do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+  transition: background-color 0.3s ease; /* Transição suave ao alterar a cor */
+}
+
+/* Adiciona um efeito ao passar o mouse sobre o botão */
+.btn-continuar:hover {
+  background-color: #4b0082; /* Cor roxa mais escura */
+}
+
+/* Adiciona um efeito ao pressionar o botão */
+.btn-continuar:active {
+  background-color: #6a0dad; /* Cor roxa intermediária */
+}
+
+/* Adiciona um efeito de foco ao botão */
+.btn-continuar:focus {
+  outline: none; /* Remove o outline padrão */
+  box-shadow: 0 0 10px rgba(128, 0, 128, 0.5); /* Sombra roxa ao redor do botão */
+}
+
+/* Define a seta preta apontando para baixo */
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid black; /* Cor preta */
+  margin-bottom: 10px; /* Espaçamento inferior */
+}
